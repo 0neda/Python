@@ -1,0 +1,287 @@
+{
+    "padrao":
+    {
+        "colours":
+        {
+            "normal_bg":"#45494e",
+            "hovered_bg":"#35393e",
+            "disabled_bg":"#25292e",
+            "selected_bg":"#193754",
+            "dark_bg":"#15191e",
+            "normal_text":"#c5cbd8",
+            "hovered_text":"#FFFFFF",
+            "selected_text":"#FFFFFF",
+            "disabled_text":"#6d736f",
+            "link_text": "#0000EE",
+            "link_hover": "#2020FF",
+            "link_selected": "#551A8B",
+            "text_shadow": "#777777",
+            "normal_border": "#DDDDDD",
+            "hovered_border": "#B0B0B0",
+            "disabled_border": "#808080",
+            "selected_border": "#8080B0",
+            "active_border": "#8080B0",
+            "filled_bar":"#f4251b",
+            "unfilled_bar":"#CCCCCC"
+        },
+        "font":
+        {
+            "name": "pixelart",
+            "size": "8",
+            "bold": "0",
+            "italic": "0",
+            "regular_resource": {
+                 "package": "recursos.fontes",
+                 "resource": "pixelart.ttf"
+            },
+            "bold_resource": {
+               "package": "recursos.fontes",
+                 "resource": "pixelart.ttf"
+            },
+            "italic_resource": {
+               "package": "recursos.fontes",
+                 "resource": "pixelart.ttf"
+            },
+            "bold_italic_resource": {
+               "package": "recursos.fontes",
+                 "resource": "pixelart.ttf"
+            }
+       }
+    },
+    "@caixadialogo":
+    {
+        "colours":
+        {
+            "normal_text":"rgba(255, 255, 255, 255)",
+            "hovered_text":"#FFFFFF",
+            "selected_text":"#FFFFFF",
+            "disabled_text":"#FFF",
+            "link_text": "#0000EE",
+            "link_hover": "#2020FF",
+            "link_selected": "#551A8B",
+            "text_shadow": "#777777",
+            "hovered_border": "#B0B0B0",
+            "disabled_border": "#808080",
+            "selected_border": "#8080B0",
+            "active_border": "#8080B0",
+            "filled_bar":"rgba(0, 0, 0, 0)",
+            "unfilled_bar":"rgba(0, 0, 0, 0)",
+            "dark_bg":"rgba(0, 0, 0, 125)",
+            "normal_border":"rgba(0, 0, 0, 255)"
+        }
+    },
+    "@botoes":
+    {
+        "misc":
+        {
+            "shape": "rounded_rectangle",
+            "text_vert_alignment": "top",
+            "text_vert_alignment_padding": "3",
+            "shape_corner_radius": "5",
+            "border_width": "0",
+            "shadow_width": "0"
+        },
+        "font":
+        {
+            "name": "pixelart",
+            "size": "8"
+        },
+        "colours":
+        {
+            "selected_text":"#000000",
+            "active_text": "#FFF"
+        }
+    },
+    "#labelmando":
+    {
+        "colours":
+        {
+            "normal_text": "#FFF"
+        },
+        "font":
+        {
+            "name": "pixelart",
+            "size": "8"
+        }
+    },
+    "#labelinimigo":
+    {
+        "colours":
+        {
+            "normal_text": "#FFF"
+        },
+        "font":
+        {
+            "name": "pixelart",
+            "size": "8"
+        }
+    },
+    "@textostatus":
+    {
+        "colours":
+        {
+            "normal_text": "#FFFFFF",
+            "dark_bg":"rgba(0, 0, 0, 0)",
+            "normal_border": "rgba(0, 0, 0, 0)"
+        },
+        "font":
+        {
+            "size": "12"
+        },
+        "misc":
+        {
+            "text_vert_alignment": "top",
+            "text_horiz_alignment": "left"
+        }
+    },
+    "@painelstatus":
+    {
+        "colours":
+        {
+            "dark_bg":"rgba(0, 0, 0, 125)",
+            "normal_border":"rgba(100, 100, 100, 125)"
+        }
+    },
+    "#barramando":
+    {
+        "colours":
+        {
+            "normal_border": "#7bff00",
+            "filled_bar":"#53ac00",
+            "unfilled_bar":"#22360f"
+        }
+    },
+    "#barrainimigo":
+    {
+        "colours":
+        {
+            "normal_border": "#ff0000",
+            "filled_bar":"#850b0b",
+            "unfilled_bar":"#280e0e"
+        }
+    },
+    "#botao_vermelho":
+    {
+        "images":
+         {
+             "normal_image": {
+                 "package": "recursos.botoes",
+                 "resource": "vermelho_normal.jpg",
+                 "sub_surface_rect": "0,0,154,54"
+             },
+             "hovered_image": {
+                "package": "recursos.botoes",
+                "resource": "vermelho_on.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             },
+             "selected_image": {
+                "package": "recursos.botoes",
+                "resource": "vermelho_on.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             },
+             "disabled_image": {
+                "package": "recursos.botoes",
+                "resource": "vermelho_off.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             }
+        },
+        "colours":
+        {
+            "normal_text": "#ff4242",
+            "hovered_text": "#541515"
+        }
+    },
+    "#botao_verde":
+    {
+        "images":
+         {
+             "normal_image": {
+                 "package": "recursos.botoes",
+                 "resource": "verde_normal.jpg",
+                 "sub_surface_rect": "0,0,154,54"
+             },
+             "hovered_image": {
+                "package": "recursos.botoes",
+                "resource": "verde_on.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             },
+             "selected_image": {
+                "package": "recursos.botoes",
+                "resource": "verde_on.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             },
+             "disabled_image": {
+                "package": "recursos.botoes",
+                "resource": "verde_off.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             }
+        },
+        "colours":
+        {
+            "normal_text": "#99e550",
+            "hovered_text": "#4b692f"
+        }
+    },
+    "#botao_azul":
+    {
+        "images":
+         {
+             "normal_image": {
+                 "package": "recursos.botoes",
+                 "resource": "azul_normal.jpg",
+                 "sub_surface_rect": "0,0,154,54"
+             },
+             "hovered_image": {
+                "package": "recursos.botoes",
+                "resource": "azul_on.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             },
+             "selected_image": {
+                "package": "recursos.botoes",
+                "resource": "azul_on.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             },
+             "disabled_image": {
+                "package": "recursos.botoes",
+                "resource": "azul_off.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             }
+        },
+        "colours":
+        {
+            "normal_text": "#56d2eb",
+            "hovered_text": "#1e3e55"
+        }
+    },
+    "#botao_roxo":
+    {
+        "images":
+         {
+             "normal_image": {
+                 "package": "recursos.botoes",
+                 "resource": "roxo_normal.jpg",
+                 "sub_surface_rect": "0,0,154,54"
+             },
+             "hovered_image": {
+                "package": "recursos.botoes",
+                "resource": "roxo_on.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             },
+             "selected_image": {
+                "package": "recursos.botoes",
+                "resource": "roxo_on.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             },
+             "disabled_image": {
+                "package": "recursos.botoes",
+                "resource": "roxo_off.jpg",
+                "sub_surface_rect": "0,0,154,54"
+             }
+        },
+        "colours":
+        {
+            "normal_text": "#c870e9",
+            "hovered_text": "#3a1b47"
+        }
+    }
+}
